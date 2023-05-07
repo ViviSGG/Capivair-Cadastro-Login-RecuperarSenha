@@ -1,0 +1,144 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root { /* criação de variaveis */
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #00256e;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #d9d9d9;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #00256e;
+    --bs-secondary: #191C24;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #00256e;
+    --bs-light: #6C7293;
+    --bs-dark: #000;
+
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255,255,255,0.15), rgba(255,255,255,0))
+}
+
+header {
+    width: 100%;
+    padding: 20px 0px 20px; /* topo, esquerda e direita, e embaixo */
+    /*padding: clamp(35px, 8%, 70px);  mínimo, preferencial, máximo */
+    background-color: var(--bs-white);
+}
+
+.icon {
+    width: 34px;
+    margin: 0px 0px 0px 24px;
+/*    background: var(--bs-indigo); */
+    vertical-align: middle;
+}
+ 
+.button-idioma {
+    width: 70px;
+    border: 0;
+    font-size: 0.9em;
+    border-radius: 15px;
+    padding: 5px 0px 5px; /* topo, esquerda e direita, e embaixo */
+    margin: 0px 0px 0px 80%;
+}
+
+main{
+    background-color: var(--bs-gray);
+}
+
+.wrapper {
+    width: 330px;
+    padding: 2rem 1rem; /* preenchimento */
+    margin: 50px auto;
+    background-color: var(--bs-white);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rm;
+    color: var(--bs-danger);
+    margin-bottom: 1.2rem;
+}
+.mensagem{
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+}
+form input{
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background: var(--bs-gray);
+}
+
+button{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: var(--bs-white);
+    cursor: pointer;
+    background: var(--bs-danger);
+}
+
+button:hover{
+    background: #0d6efd;
+}
+input:focus{
+    border: 1px solid var(--bs-gray-dark);
+}
+
+.terms{
+    margin-top: 0.2rem;
+}
+
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.terms label{
+    font-size: 1rem;
+}
+.terms a{
+    color: #0c52bb;
+    text-decoration: none;
+}
+
+.member{
+    font-size: 1rem;
+    margin-top: 1.4rem;
+}
+
+.member a{
+    color: #0c52bb;
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--bs-gray)
+
+}
