@@ -5,8 +5,10 @@
     "theme_color": "#2196f3",
     "background_color": "#ffffff",
     "display": "browser",
+    "orientation": "any",
     "scope": "/",
-    "start_url": "/https://capivair-login.netlify.app/",
+    "dir": "ltr",
+    "start_url": "https://capivair-login.netlify.app/",
     "categories": [ 
         "education",
         "personalization",
@@ -37,5 +39,21 @@
             "type": "image/png",
             "sizes": "720x1640"
         }
+    ],
+    "shortcuts": [
+        {
+          "name": "index",
+          "url": "https://capivair-login.netlify.app/",
+          "description": "página inicial"
+        }
+      ],
+    "iarc_rating_id": "10",
+    "prefer_related_applications": true,
+    "related_applications": [
+        {
+            "platform": "google_play_store",
+            "url": "https://play.google.com/store/apps/details?id=ffz.it.airquality",
+            "id": ""
+        }
     ]
-  }
+}
