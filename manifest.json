@@ -1,11 +1,19 @@
 {
     "name": "Login Capivair",
     "short_name": "Capivair",
+    "description": "App para monitoramento de poluição industrial",
     "theme_color": "#2196f3",
-    "background_color": "#0d6efd",
+    "background_color": "#ffffff",
     "display": "browser",
     "scope": "/",
     "start_url": "/https://capivair-login.netlify.app/",
+    "categories": [ 
+        "education",
+        "personalization",
+        "photo",
+        "productivity",
+        "social"
+    ],
     "icons": [
         {
             "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/512.png",
@@ -22,5 +30,12 @@
             "type": "image/png",
             "sizes": "512x512"
         }
-      ]
+    ],
+      "screenshots": [
+        {
+            "src": "imagens/screenshots.jpeg",
+            "type": "image/png",
+            "sizes": "720x1640"
+        }
+    ]
   }
