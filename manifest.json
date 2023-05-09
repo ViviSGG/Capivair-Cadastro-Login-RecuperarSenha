@@ -9,51 +9,56 @@
     "scope": "/",
     "dir": "ltr",
     "start_url": "https://capivair-login.netlify.app/",
-    "categories": [ 
-        "education",
-        "personalization",
-        "photo",
-        "productivity",
-        "social"
+    "categories": [
+      "business",
+      "finance",
+      "health",
+      "productivity",
+      "security",
+      "utilities",
+      "weather"
     ],
     "icons": [
-        {
-            "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/512.png",
-            "type": "image/png",
-            "sizes": "114x114"
-        },
-        {
-          "src": "imagens/AppIcons/playstore.png",
-          "type": "image/png",
-          "sizes": "216x216"
-        },
-        {
-            "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/512.png",
-            "type": "image/png",
-            "sizes": "512x512"
-        }
+      {
+        "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/512.png",
+        "type": "image/png",
+        "sizes": "114x114"
+      },
+      {
+        "src": "imagens/AppIcons/playstore.png",
+        "type": "image/png",
+        "sizes": "216x216"
+      },
+      {
+        "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
     ],
-      "screenshots": [
-        {
-            "src": "imagens/screenshots.jpeg",
-            "type": "image/png",
-            "sizes": "720x1640"
-        }
+    "screenshots": [
+      {
+        "src": "imagens/screenshots.jpeg",
+        "type": "image/png",
+        "sizes": "720x1640"
+      }
     ],
     "shortcuts": [
-        {
-          "name": "index",
-          "url": "https://capivair-login.netlify.app/",
-          "description": "página inicial"
-        }
-      ],
+      {
+        "name": "index",
+        "url": "https://capivair-login.netlify.app/",
+        "description": "página inicial"
+      }
+    ],
     "iarc_rating_id": "10",
     "prefer_related_applications": true,
     "related_applications": [
-        {
-            "platform": "google_play_store",
-            "url": "https://play.google.com/store/apps/details?id=ffz.it.airquality",
-            "id": ""
-        }
-    ]
-}
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=ffz.it.airqualityhttps://play.google.com/store/apps/details?id=ffz.it.airquality",
+        "id": ""
+      }
+    ],
+    "edge_side_panel": {
+      "preferred_width": 5
+    }
+  }
