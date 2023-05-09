@@ -6,6 +6,7 @@
     "background_color": "#ffffff",
     "display": "browser",
     "orientation": "any",
+    "lang":"pt-br",
     "scope": "/",
     "dir": "ltr",
     "start_url": "https://capivair-login.netlify.app/",
