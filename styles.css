@@ -3,9 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
 }
 
 :root { /* criação de variaveis */
@@ -35,6 +32,152 @@
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255,255,255,0.15), rgba(255,255,255,0))
 }
+
+/* Icon */
+
+.icon {
+    text-decoration: none;
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-bottom: none;
+    position: relative;
+}
+
+    .icon:before {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+        text-transform: none !important;
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 400;
+    }
+
+    .icon > .label {
+        display: none;
+    }
+
+    .icon:before {
+        line-height: solid;
+    }
+
+    .icon.solid:before {
+        font-weight: 900;
+    }
+
+    .icon.brands:before {
+        font-family: 'Font Awesome 5 Brands';
+    }
+
+    .icon.major {
+        border: solid 1px;
+        display: inline-block;
+        border-radius: 100%;
+        padding: 0.65em;
+        margin: 0 0 2em 0;
+        cursor: default;
+    }
+
+        .icon.major:before {
+            display: inline-block;
+            font-size: 6.25rem;
+            width: 2.25em;
+            height: 2.25em;
+            line-height: 2.2em;
+            border-radius: 100%;
+            border: solid 1px;
+            text-align: center;
+        }
+
+    .icon.alt {
+        display: inline-block;
+        border: solid 1px;
+        border-radius: 100%;
+    }
+
+        .icon.alt:before {
+            display: block;
+            font-size: 1.25em;
+            width: 2em;
+            height: 2em;
+            text-align: center;
+            line-height: 2em;
+        }
+
+    .icon.style1 {
+        color: #efa8b0;
+    }
+
+    .icon.style2 {
+        color: #c79cc8;
+    }
+
+    .icon.style3 {
+        color: #a89cc8;
+    }
+
+    .icon.style4 {
+        color: #9bb2e1;
+    }
+
+    .icon.style5 {
+        color: #8cc9f0;
+    }
+
+    @media screen and (max-width: 1680px) {
+
+        .icon.major:before {
+            font-size: 5.5rem;
+        }
+
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        .icon.major:before {
+            font-size: 4.75rem;
+        }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+        .icon.major {
+            margin: 0 0 1.5em 0;
+            padding: 0.35em;
+        }
+
+            .icon.major:before {
+                font-size: 3.5rem;
+            }
+
+    }
+
+.icon.major {
+    border-color: rgba(255, 255, 255, 0.35);
+}
+
+    .icon.major:before {
+        border-color: rgba(255, 255, 255, 0.35);
+    }
+
+.icon.alt {
+    border-color: rgba(255, 255, 255, 0.35);
+    color: #ffffff;
+}
+
+    .icon.alt:hover {
+        background-color: rgba(255, 255, 255, 0.075);
+    }
+
+    .icon.alt:active {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
 
 header {
     width: 100%;
