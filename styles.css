@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--bs-font-sans-serif);
 }
 
 :root { /* criação de variaveis */
@@ -33,163 +34,15 @@
     --bs-gradient: linear-gradient(180deg, rgba(255,255,255,0.15), rgba(255,255,255,0))
 }
 
-/* Icon */
-
-.icon {
-    text-decoration: none;
-    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    border-bottom: none;
-    position: relative;
-}
-
-    .icon:before {
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-font-smoothing: antialiased;
-        display: inline-block;
-        font-style: normal;
-        font-variant: normal;
-        text-rendering: auto;
-        line-height: 1;
-        text-transform: none !important;
-        font-family: 'Font Awesome 5 Free';
-        font-weight: 400;
-    }
-
-    .icon > .label {
-        display: none;
-    }
-
-    .icon:before {
-        line-height: solid;
-    }
-
-    .icon.solid:before {
-        font-weight: 900;
-    }
-
-    .icon.brands:before {
-        font-family: 'Font Awesome 5 Brands';
-    }
-
-    .icon.major {
-        border: solid 1px;
-        display: inline-block;
-        border-radius: 100%;
-        padding: 0.65em;
-        margin: 0 0 2em 0;
-        cursor: default;
-    }
-
-        .icon.major:before {
-            display: inline-block;
-            font-size: 6.25rem;
-            width: 2.25em;
-            height: 2.25em;
-            line-height: 2.2em;
-            border-radius: 100%;
-            border: solid 1px;
-            text-align: center;
-        }
-
-    .icon.alt {
-        display: inline-block;
-        border: solid 1px;
-        border-radius: 100%;
-    }
-
-        .icon.alt:before {
-            display: block;
-            font-size: 1.25em;
-            width: 2em;
-            height: 2em;
-            text-align: center;
-            line-height: 2em;
-        }
-
-    .icon.style1 {
-        color: #efa8b0;
-    }
-
-    .icon.style2 {
-        color: #c79cc8;
-    }
-
-    .icon.style3 {
-        color: #a89cc8;
-    }
-
-    .icon.style4 {
-        color: #9bb2e1;
-    }
-
-    .icon.style5 {
-        color: #8cc9f0;
-    }
-
-    @media screen and (max-width: 1680px) {
-
-        .icon.major:before {
-            font-size: 5.5rem;
-        }
-
-    }
-
-    @media screen and (max-width: 1280px) {
-
-        .icon.major:before {
-            font-size: 4.75rem;
-        }
-
-    }
-
-    @media screen and (max-width: 736px) {
-
-        .icon.major {
-            margin: 0 0 1.5em 0;
-            padding: 0.35em;
-        }
-
-            .icon.major:before {
-                font-size: 3.5rem;
-            }
-
-    }
-
-.icon.major {
-    border-color: rgba(255, 255, 255, 0.35);
-}
-
-    .icon.major:before {
-        border-color: rgba(255, 255, 255, 0.35);
-    }
-
-.icon.alt {
-    border-color: rgba(255, 255, 255, 0.35);
-    color: #ffffff;
-}
-
-    .icon.alt:hover {
-        background-color: rgba(255, 255, 255, 0.075);
-    }
-
-    .icon.alt:active {
-        background-color: rgba(255, 255, 255, 0.2);
-    }
-
 header {
     width: 100%;
     padding: 20px 0px 20px; /* topo, esquerda e direita, e embaixo */
-    /*padding: clamp(35px, 8%, 70px);  mínimo, preferencial, máximo */
     background-color: var(--bs-white);
 }
 
 .icon {
     width: 34px;
     margin: 0px 0px 0px 24px;
-/*    background: var(--bs-indigo); */
     vertical-align: middle;
 }
  
@@ -198,18 +51,23 @@ header {
     border: 0;
     font-size: 0.9em;
     border-radius: 15px;
-    padding: 5px 0px 5px; /* topo, esquerda e direita, e embaixo */
+    padding: 5px 0px 6px; /* topo, esquerda e direita, e embaixo */
     margin: 0px 0px 0px 80%;
+}
+
+body{
+    background-color: var(--bs-gray)
 }
 
 main{
     background-color: var(--bs-gray);
+    padding: 50px 0px 50px;  /* topo, esquerda e direita, e embaixo */
 }
 
 .wrapper {
     width: 330px;
     padding: 2rem 1rem; /* preenchimento */
-    margin: 50px auto;
+    margin: auto;
     background-color: var(--bs-white);
     border-radius: 15px;
     text-align: center;
@@ -221,10 +79,14 @@ h1 {
     color: var(--bs-danger);
     margin-bottom: 1.2rem;
 }
+
 .mensagem{
+    margin: auto;
+    width: 92%;
     font-size: 1rem;
     margin-bottom: 1.2rem;
 }
+
 form input{
     width: 92%;
     outline: none;
@@ -285,6 +147,21 @@ input:focus{
 }
 
 footer {
-    background-color: var(--bs-gray)
+    display: flex;
+    background-color: var(--bs-white);
+    padding: 24px; /* topo, esquerda e direita, e embaixo */
+    width: 96%;
+    margin: auto;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 16px;
+    color: var(--bs-light);
+}
 
+footer a{
+    color: #0c52bb;
+    text-decoration: none;
+}
+
+.Links {
+    margin: 0px 0px 0px 65%;
 }
