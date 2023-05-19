@@ -12,11 +12,9 @@ self.addEventListener('install', event => {
         './autorizacao.html',
         './cadastro.html',
         './identificacao.html',
-        '.nova-senha.html',
+        './nova-senha.html',
         // assets\css caminho relativo
         './styles.css',
-        // imagens caminha relativo
-        './imagens',
         /*
         './assets/img/favicon.png',
         './assets/img/logo.png',
