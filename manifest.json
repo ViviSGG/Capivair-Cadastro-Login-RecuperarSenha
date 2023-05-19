@@ -4,7 +4,7 @@
     "description": "App para monitoramento de poluição industrial",
     "theme_color": "#2196f3",
     "background_color": "#ffffff",
-    "display": "browser",
+    "display": "standalone",
     "orientation": "any",
     "lang":"pt-br",
     "scope": "/",
