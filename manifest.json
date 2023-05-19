@@ -21,11 +21,6 @@
     ],
     "icons": [
       {
-        "src": "imagens/capivara-icon.png",
-        "type": "image/png",
-        "sizes": "96x97"
-      },
-      {
         "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/512.png",
         "type": "image/png",
         "sizes": "512x512",
