@@ -42,6 +42,11 @@
         "sizes": "96x97"
       },
       {
+        "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
         "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/60.png",
         "type": "image/png",
         "sizes": "60x60"
