@@ -25,11 +25,25 @@
         "type": "image/png",
         "sizes": "512x512"
       },
-
+      {
+        "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
       {
         "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/96.png",
         "type": "image/png",
         "sizes": "96x96"
+      },
+      {
+        "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/60.png",
+        "type": "image/png",
+        "sizes": "60x60"
+      },
+      {
+        "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/20.png",
+        "type": "image/png",
+        "sizes": "20x20"
       }
     ],
 
