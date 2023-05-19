@@ -27,9 +27,9 @@
       },
 
       {
-        "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/512.png",
+        "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/100.png",
         "type": "image/png",
-        "sizes": "512x512"
+        "sizes": "100x100"
       }
     ],
 
@@ -58,7 +58,7 @@
         "id": ""
       }
     ],
-    
+
     "edge_side_panel": {
       "preferred_width": 5
     }
