@@ -28,7 +28,8 @@
       {
         "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/512.png",
         "type": "image/png",
-        "sizes": "512x512"
+        "sizes": "512x512",
+        "purpose": "any maskable"
       },
       {
         "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/144.png",
