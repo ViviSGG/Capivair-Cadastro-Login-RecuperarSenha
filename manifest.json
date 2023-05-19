@@ -21,6 +21,11 @@
     ],
     "icons": [
       {
+        "src": "imagens/capivara-icon.png",
+        "type": "image/png",
+        "sizes": "96x97"
+      },
+      {
         "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/512.png",
         "type": "image/png",
         "sizes": "512x512"
@@ -31,9 +36,9 @@
         "sizes": "144x144"
       },
       {
-        "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/96.png",
+        "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/100.png",
         "type": "image/png",
-        "sizes": "96x96"
+        "sizes": "100x100"
       },
       {
         "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/60.png",
