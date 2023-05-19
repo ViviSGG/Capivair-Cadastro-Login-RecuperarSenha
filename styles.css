@@ -76,7 +76,7 @@ main{
 }
 
 h1 {
-    font-size: 2rm;
+    font-size: 2rem;
     color: var(--bs-danger);
     margin-bottom: 1.2rem;
 }
