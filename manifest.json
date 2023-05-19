@@ -37,6 +37,11 @@
         "sizes": "100x100"
       },
       {
+        "src": "imagens/capivara-icon.png",
+        "type": "image/png",
+        "sizes": "96x97"
+      },
+      {
         "src": "imagens/AppIcons/Assets.xcassets/AppIcon.appiconset/60.png",
         "type": "image/png",
         "sizes": "60x60"
